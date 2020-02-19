@@ -8,6 +8,7 @@
 
             <div class="well">
             <h3>{{$post->title}}</h3>
+            <small>Written on {{$post->created_at}}</small>
             </div>
             
         @endforeach
