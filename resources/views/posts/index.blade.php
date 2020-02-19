@@ -14,6 +14,7 @@
                 
             @endforeach
         </ol>
+        {{$posts->links()}}
     @endif
 
 @endsection
