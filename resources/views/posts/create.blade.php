@@ -9,6 +9,14 @@
             {{Form::text('title', '', ['class' => 'form-control', 'placeholder' => 'Title'])}}
 
         </div>
+        </br>
+        <div class="">
+            {{Form::label('body', 'Body')}}
+            {{Form::textarea('body', '', ['class' => 'form-control', 'placeholder' => 'Body Text'])}}
+
+        </div>
     {!! Form::close() !!}
+
+
    
 @endsection
